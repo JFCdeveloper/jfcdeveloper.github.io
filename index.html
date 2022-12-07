@@ -1,21 +1,227 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>PortFolio | Web</title>
-    <link rel="icon" href="https://jfcdeveloper.github.io/assets/images/icon-app-dev.png" title="PortfolioWeb">
+    <meta name="description" content="web design,web,mobile,developer,website,development web,bootstrap,angular,php,mysql,devops,infra,pipeline">
+    <title>Website JFCdeveloper</title>
+    <link rel="icon" href="https://jfcdeveloper.github.io/assets/image/icon-app-dev.png" title="PortfolioWeb">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+    
+
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
   </head>
-  <body class="bg-dark text-white">
-      <div class="container-lg">
-        <h1>PortFolio Web Developer</h1>
-        <hr>
-        <br><br>
-      <div id="donate-button-container">
-      <div id="donate-button"></div>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">Sobre mi</h4>
+          <p class="text-muted">Este es mi portafolio web, está diseñado con tecnología Javascript, Bootstrap, CSS, también trabajo con otras tecnologías como Angular, PHP, Mysql, Phython y otros frameworks, contácteme para más información.
+          </p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact0</h4>
+          <ul class="list-unstyled">
+            <li><a href="mailto:'programmerjf@gmail.com" class="text-white">Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <!-- 
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        -->
+        <strong>PortFolioWeb</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Desarrollo Web</h1>
+        <p class="lead text-muted">Si quieres puedes invitarme a un café. Contacta para mas información</p>
+        <p>
+          <a href="https://ko-fi.com/devdeveloper" class="btn btn-primary btn-lg">Coffee</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/image/Repuestos_Velae.png" alt="Repuestos_Electrodomésticos"> 
+             <div class="card-body">
+              <p class="card-text">Proveedor de repuestos para todo tipo de electrodomésticos online.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a class="text-dark text-decoration-none" href="https://www.repuestosvelae.com/es/" target="_blank">Ver</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/image/electronicasanchi.png" alt="Reparaciones_Eléctronica">
+            <div class="card-body">
+              <p class="card-text">Servicio de reparaciones electrónicas industriales y tecnológicas.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a class="text-dark text-decoration-none" href="https://www.electronicasanchi.com/" target="_blank">Ver</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/image/reformplus_web.png" alt="Reformas_General">
+            <div class="card-body">
+              <p class="card-text">Empresa de reformas integrales en general.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a class="text-dark text-decoration-none" href="https://www.reformplus.es/" target="_blank">Ver</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/image/telecom.jpeg" alt="Telecom">
+            <div class="card-body">
+              <p class="card-text">Empresa de servicios telecomunicaciones, redes, cámaras IP/TV y seguridad.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a class="text-dark text-decoration-none" href="https://www.heypo-solutions.com" target="_blank">Ver</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Web en contrucción" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Web en contrucción</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Web en contrucción</text></svg>
+            <div class="card-body">
+              <p class="card-text">Web en contrucción.Web en contrucción.Web en contrucción.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a class="text-dark text-decoration-none" href="https://webencontruccion.com" target="_blank">Ver</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Web en contrucción" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Web en contrucción</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Web en contrucción</text></svg>
+            <div class="card-body">
+              <p class="card-text">Web en contrucción.Web en contrucción.Web en contrucción.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a class="text-dark text-decoration-none" href="https://webencontruccion.com" target="_blank">Ver</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Arriba</a>
+    </p>
+    <div id="donate-button"></div>
       <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
       <script>
       PayPal.Donation.Button({
@@ -23,95 +229,22 @@
       hosted_button_id:'3WLMVQ3N6RR4J',
       image: {
       src:'https://pics.paypal.com/00/s/N2JlYjY1ZDktMjI0MC00ODNmLWJmYmUtNDA4MzI3MTY5NjY1/file.PNG',
-      alt:'Botón Donar con PayPal',
+      alt:'Botón Donar con PayPal',
       title:'PayPal - The safer, easier way to pay online!',
       }
       }).render('#donate-button');
       </script>
-        <br>
-         <div class="coffe">
-            <a href="https://ko-fi.com/devdeveloper">
-            <button type="button" class="btn btn-primary btn-lg">Me invitas a un cafe
-              <img src="https://cdn-icons-png.flaticon.com/512/818/818217.png " alt="Me invitas a un cafe" title="" class="img-small" width="56" height="56">
-            </button>
-            </a>
-         </div>
-      </div>
-        
-        <br>
-          <div class="card-group text-dark">
-            <div class="card">
-                <img src="assets/images/reformplus_web.png" class="card-img-top border border-primary" alt="Web Reformas">
-              <div class="card-body">
-                <div class="accordion" id="accordionExample">
-                  <h5 class="card-title">Reformas</h5>
-                  <p class="card-text">Empresa de reformas integrales en general</p>
-                </div>
-              </div>
-              <div class="card-footer">
-                <a href="https://www.reformplus.es" target="_blank" class="stretched-link text-decoration-none">www.reformplus.es</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/images/Repuestos_Velae.png" class="card-img-top border border-primary" alt="Web electrodomésticos">
-              <div class="card-body">
-                <h5 class="card-title">Electrodomésticos</h5>
-                <p class="card-text">Proveedor de repuestos para todo tipo de electrodomésticos</p>
-              </div>
-              <div class="card-footer">
-              <a href="https://www.repuestosvelae.com/es/" target="_blank" class="stretched-link text-decoration-none">www.repuestosvelae.com</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/images/heyposolutions.png" class="card-img-top border border-primary" alt="Telecom">
-              <div class="card-body">
-                <h5 class="card-title">Telecomunicaciones</h5>
-                <p class="card-text">Empresa de servicios telecomunicaciones, redes, cámaras IP/TV y seguridad</p>
-              </div>
-              <div class="card-footer">
-                <a href="https://www.heypo-solutions.com" target="_blank" class="stretched-link text-decoration-none">www.heypo-solutions.com</a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/images/electronicasanchi.png" class="card-img-top border border-primary" alt="Web electrónica">
-              <div class="card-body">
-                <h5 class="card-title">Electrónica</h5>
-                <p class="card-text">Servicio de reparaciones electrónicas industriales y tecnológicas</p>
-              </div>
-              <div class="card-footer">
-                <a href="https://www.electronicasanchi.com" target="_blank" class="stretched-link text-decoration-none">www.electronicasanchi.com</a> 
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/images/riverit.png" class="card-img-top border border-primary" alt="Web Consulting IT">
-              <div class="card-body">
-                <h5 class="card-title">Informática</h5>
-                <p class="card-text">Servicio de clouds, proyectos, consulting, asistencia técnica</p>
-              </div>
-              <div class="card-footer">
-                <a href="https://www.riverit.es" target="_blank" class="stretched-link text-decoration-none">www.riverit.es</a> 
-              </div>
-            </div>
-          </div>
-         <footer>
-             <hr>
-             <p class="text-center">|* PortFolioWeb <span id="year"></span> - JFCdeveloper *| </p> 
-             <script> 
-             var d = new Date();
-             var y = d.getFullYear();
-             document.getElementById("year").innerHTML = y;
-           </script>
-         </footer>
+  </div>
+  <p class="text-dark text-center"><span>&#60;</span> PortFolioWeb <span id="year">2022</span> - JFCdeveloper <span>&#47;&#62;</span>|</p>
+</footer>
+    <script> 
+        var d = new Date();
+        var y = d.getFullYear();
+        document.getElementById("year").innerHTML = y;
+    </script>
 
-      </div>
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+      
   </body>
 </html>
